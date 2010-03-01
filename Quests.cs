@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         {
             if (questgiven1 == 0)
             {
-                quest1name = "Not Started\n\n\n";
+                quest1name = "Not Started yet\n\n\n";
             }
             else
                 if (questgiven1 == 1 & questcompleted1 == 0)
