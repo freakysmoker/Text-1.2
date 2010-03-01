@@ -1,0 +1,36 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Text 1.2</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Text 1.2</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Text 1.2.csproj" File="Text 1.2.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Armor.cs">Armor.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Battles.cs">Battles.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Caves.cs">Caves.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Cities.cs">Cities.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Drops.cs">Drops.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Enemies.cs">Enemies.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Info.cs">Info.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Map.cs">Map.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Playstatus.cs">Playstatus.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Quests.cs">Quests.cs</ProjectItem>
+      <Folder Name="Service References" TargetFolderName="Service References" />
+      <ProjectItem ReplaceParameters="true" TargetFileName="Weapons.cs">Weapons.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
